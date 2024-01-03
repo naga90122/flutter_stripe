@@ -1,0 +1,10 @@
+# melos_managed_dependency_overrides: flutter_stripe,stripe_android,stripe_ios,stripe_platform_interface
+dependency_overrides:
+  flutter_stripe:
+    path: packages/stripe
+  stripe_android:
+    path: packages/stripe_android
+  stripe_ios:
+    path: packages/stripe_ios
+  stripe_platform_interface:
+    path: packages/stripe_platform_interface

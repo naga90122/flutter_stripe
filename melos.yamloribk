@@ -4,7 +4,6 @@ command:
     usePubspecOverrides: true
 packages:
   - ./packages/**
-  - . # Include the root directory for the Flutter package
 scripts:
   analyze: melos exec -- flutter analyze
   format: melos exec -- dart format .
